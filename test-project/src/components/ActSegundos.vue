@@ -5,6 +5,7 @@
 			<h1>Impresiones de 20 segundos</h1>
 		<h2>Imagen {{ currentImagen }} de {{ imagenes.length }}</h2>
 		<ImagenSegundos v-for="imagen in imagenes" :current="currentImagen" :imagen="imagen" :key="imagen.index" v-on:nextImage="nextImage"></ImagenSegundos>
+		
 		</section>
 		
 	
